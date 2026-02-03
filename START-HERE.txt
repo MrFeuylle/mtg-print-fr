@@ -1,0 +1,90 @@
+⚔️ **MTG PRINT FR - DÉMARRAGE EN 2 MINUTES**
+
+## 🔴 IMPORTANT: Node.js requis!
+
+Avant toute chose, installez Node.js:
+👉 https://nodejs.org (version LTS)
+
+Installez-le normalement, redémarrez votre terminal.
+
+---
+
+## ✅ OPTION 1: Double-cliquer un bouton (Le plus simple)
+
+1. **Ouvrez l'Explorateur Windows**
+2. **Allez à:** `c:\Users\axelg\Desktop\MTGPRINTFR`
+3. **Double-cliquez:** `start-dev.bat`
+4. **Attendez 5-10 secondes**
+5. **Ouvrez:** http://localhost:5173/
+6. **C'est live!** ✅
+
+---
+
+## ✅ OPTION 2: Terminal PowerShell (Plus de contrôle)
+
+```powershell
+# Ouvrir PowerShell et copier-coller:
+cd "c:\Users\axelg\Desktop\MTGPRINTFR"
+npm install
+npm run dev
+```
+
+Puis ouvrez: http://localhost:5173/
+
+---
+
+## 🧪 TESTER L'APP EN 30 SECONDES
+
+1. **Coller une decklist:**
+   ```
+   4 Foudre
+   3 Contresort
+   ```
+
+2. **Cliquer:** "🔍 Prévisualiser"
+   → Les images apparaissent
+
+3. **Cliquer:** "📥 Télécharger PDF"
+   → Un PDF se télécharge
+
+✅ **Ça marche!**
+
+---
+
+## 📦 PUBLIER SUR GITHUB PAGES
+
+Quand prêt:
+
+```powershell
+npm run build
+```
+
+Puis:
+1. Créer un repo GitHub: `mtg-print-fr`
+2. Pusher le code
+3. Aller à Settings → Pages
+4. Sélectionner: main branch, root folder
+5. Sauvegarder → ✅ Done!
+
+Votre app sera accessible à:
+```
+https://votreusername.github.io/mtg-print-fr/
+```
+
+---
+
+## 🆘 PROBLÈMES?
+
+**Node.js introuvable?**
+→ Installez depuis: https://nodejs.org
+→ Redémarrez votre PowerShell
+
+**Port 5173 utilisé?**
+→ `npm run dev -- --port 3000`
+
+**Besoin de plus de détails?**
+→ Lire: `INSTALLATION.md`
+
+---
+
+**C'est tout! Bon développement! 🚀**
